@@ -11,9 +11,9 @@ import org.apache.commons.codec.digest.DigestUtils;
 public enum Commands 
 {
 	REGISTER("register", (args)->{
-		Scanner input = new Scanner(System.in);	
-		
 		System.out.println("Username: ");
+		
+		Scanner input = new Scanner(System.in);
 		
 		String username = input.nextLine();
 		
